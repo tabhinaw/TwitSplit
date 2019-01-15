@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent">
+
+    <EditText
+            android:id="@+id/et_add_twit"
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:fontFamily="sans-serif-light"
+            android:hint="@string/hint_word"
+            android:inputType="textMultiLine"
+            android:gravity="left"
+            android:padding="@dimen/small_padding"
+            android:layout_margin="@dimen/big_padding"
+            android:textSize="16sp"
+            android:background="@drawable/ic_rect_round_5"/>
+
+    <Button
+            android:id="@+id/button_post"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/colorPrimary"
+            android:text="@string/post"
+            android:layout_margin="@dimen/big_padding"
+            android:textColor="@color/buttonLabel" />
+
+</LinearLayout>

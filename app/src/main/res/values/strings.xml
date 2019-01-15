@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">TwitSplit</string>
+    <string name="hint_word">Twit your thoughts…</string>
+    <string name="post">Post</string>
+    <string name="empty_not_saved">Twit cannot be empty.</string>
+    <string name="pattern_not_matched">Twit pattern not matched with our requirement.</string>
+    <string name="post_twit">Post Twit</string>
+</resources>
